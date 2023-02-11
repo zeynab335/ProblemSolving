@@ -12,10 +12,7 @@ namespace SingleNumbers
         {
             int DistinctNumbers  = -1;
 
-            // hash set not accept duplicte elements
-            //List<int> Visited = new List<int>();
             Dictionary<int,int> Visited = new Dictionary<int,int>();
-
 
             for (int i = 0; i < nums.Length; i++) {
                 
