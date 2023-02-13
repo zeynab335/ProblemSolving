@@ -8,6 +8,7 @@ namespace CountingBits
 {
     public class Solution
     {
+        // T O[nlogn]
         public int[] CountBits(int n)
         {
             int[] res = new int[n+1];
